@@ -11,6 +11,8 @@ git clone https://github.com/AbdoAhmedElbanaa/device_xiaomi_miatoll.git -b 16 de
 git clone https://github.com/AbdoAhmedElbanaa/vendor_xiaomi_miatoll.git -b 16 vendor/xiaomi/miatoll
 git clone https://github.com/AbdoAhmedElbanaa/hardware_xiaomi.git -b 16 hardware/xiaomi
 git clone https://github.com/AbdoAhmedElbanaa/kernel_xiaomi_sm6250.git -b 16.0 kernel/xiaomi/sm6250
+git clone https://github.com/LineageOS/android_hardware_sony_timekeep.git -b lineage-22.2 hardware/sony/timekeep
+
 
 # Sync
 /opt/crave/resync.sh
