@@ -12,7 +12,9 @@ git clone https://github.com/AbdoAhmedElbanaa/vendor_xiaomi_miatoll.git -b 16 ve
 git clone https://github.com/AbdoAhmedElbanaa/hardware_xiaomi.git -b 16 hardware/xiaomi
 git clone https://github.com/AbdoAhmedElbanaa/kernel_xiaomi_sm6250.git -b 16.0 kernel/xiaomi/sm6250
 git clone https://github.com/LineageOS/android_hardware_sony_timekeep.git -b lineage-22.2 hardware/sony/timekeep
-git clone https://github.com/AbdoAhmedElbanaa/vendor_xiaomi_miuicamera.git -b 16 vendor/xiaomi/miuicamera
+Git clone https://github.com/AbdoAhmedElbanaa/vendor_xiaomi_miuicamera.git -b 16 vendor/xiaomi/miuicamera
+# Updates
+git clone https://github.com/AbdoXXBuilder/android_packages_apps_Updater.git -b sixteen packages/apps/Updater
 
 # Sync
 /opt/crave/resync.sh
@@ -23,6 +25,7 @@ source build/envsetup.sh
 # Lunch
 riseup miatoll user
 
-
-# Build ROM Signed 
+# Build ROM
 rise b
+
+echo "Build complete !"
