@@ -28,10 +28,4 @@ riseup miatoll user
 # Build ROM
 rise b
 
-# Generate keys if not already created (optional, only needed once)
-gk -s
-
-# Build Signed ROM
-rise sb
-
-echo "Build complete and signed!"
+echo "Build complete !"
