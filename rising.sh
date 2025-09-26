@@ -13,6 +13,8 @@ git clone https://github.com/AbdoAhmedElbanaa/hardware_xiaomi.git -b 16 hardware
 git clone https://github.com/AbdoAhmedElbanaa/kernel_xiaomi_sm6250.git -b 16.0 kernel/xiaomi/sm6250
 git clone https://github.com/LineageOS/android_hardware_sony_timekeep.git -b lineage-22.2 hardware/sony/timekeep
 Git clone https://github.com/AbdoAhmedElbanaa/vendor_xiaomi_miuicamera.git -b 16 vendor/xiaomi/miuicamera
+# Updates
+git clone https://github.com/AbdoXXBuilder/android_packages_apps_Updater.git -b sixteen packages/apps/Updater
 
 # Sync
 /opt/crave/resync.sh
@@ -25,3 +27,11 @@ riseup miatoll user
 
 # Build ROM
 rise b
+
+# Generate keys if not already created (optional, only needed once)
+gk -s
+
+# Build Signed ROM
+rise sb
+
+echo "Build complete and signed!"
