@@ -28,11 +28,5 @@ riseup miatoll user
 # Rom Build 
 rise b
 
-#Sign Rom
-gk -s 
-
-#Rom Build Signded 
-rise sb
-
 
 echo "Rom Signed Builded "
