@@ -25,15 +25,11 @@ source build/envsetup.sh
 # Lunch
 riseup miatoll user
 
-# Build ROM
-rise b
-
-echo "Build complete !"
-
-echo "Rom Signed Building "
-
+#Sign Rom
 gk -s 
 
 #Rom Build Signded 
-
 rise sb
+
+
+echo "Rom Signed Builded "
