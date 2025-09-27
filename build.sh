@@ -25,6 +25,9 @@ source build/envsetup.sh
 # Lunch
 riseup miatoll user
 
+# Rom Build 
+rise b
+
 #Sign Rom
 gk -s 
 
