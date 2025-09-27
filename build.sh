@@ -29,3 +29,11 @@ riseup miatoll user
 rise b
 
 echo "Build complete !"
+
+echo "Rom Signed Building "
+
+gk -s 
+
+#Rom Build Signded 
+
+rise sb
