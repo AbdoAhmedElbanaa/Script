@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests/
 
 # ROM source repo
-repo init -u https://github.com/RisingOS-Revived/android -b sixteen-los --git-lfs
+repo init -u https://github.com/RisingOS-Revived/android -b sixteen --git-lfs
 
 # Clone repository
 git clone https://github.com/AbdoAhmedElbanaa/device_xiaomi_miatoll.git -b 16 device/xiaomi/miatoll
